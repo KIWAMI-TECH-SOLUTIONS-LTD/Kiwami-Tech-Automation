@@ -1,0 +1,21 @@
+{
+  "name": "kiwami-tech-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "@typescript-eslint/eslint-plugin": "^8.71.1",
+    "@typescript-eslint/parser": "^8.71.1",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "3.9.10",
+    "husky": "^8.0.0"
+  }
+}
