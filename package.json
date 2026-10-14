@@ -5,6 +5,8 @@
   "scripts": {
     "prepare": "husky install",
     "test": "playwright test",
+    "test:home": "playwright test tests/home.spec.ts",
+    "test:forms": "playwright test tests/forms.spec.ts",
     "lint": "eslint ."
   },
   "keywords": [],
@@ -12,12 +14,17 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.39.5",
     "@playwright/test": "^1.64.0",
     "@types/node": "^26.6.5",
     "@typescript-eslint/eslint-plugin": "^8.71.1",
     "@typescript-eslint/parser": "^8.71.1",
+    "eslint": "^9.39.5",
     "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "husky": "^8.0.0",
+    "jiti": "^2.7.0",
     "prettier": "3.9.10",
-    "husky": "^8.0.0"
+    "typescript-eslint": "^8.71.2"
   }
 }
